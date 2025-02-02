@@ -1,0 +1,94 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9f7f1; /* Soft mint background for a fresh look */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form container */
+form {
+    background-color: #ffffff; /* Clean white background for the form */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100%;
+    max-width: 450px;
+    border: 1px solid #ddd; /* Light border for better distinction */
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #4CAF50; /* Soft green for freshness */
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Label styling */
+label {
+    font-size: 16px;
+    color: #555; /* Slightly darker for good contrast */
+    margin-bottom: 8px;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px; /* Space between fields */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9; /* Light grey background for input fields */
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    outline: none;
+    background-color: #f1fdf0; /* Slightly lighter on focus */
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #4CAF50; /* Green button for a clean look */
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Slightly darker green when hovered */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+        padding: 25px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
